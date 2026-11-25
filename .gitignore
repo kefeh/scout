@@ -1,0 +1,40 @@
+# secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# run artifacts: logcat and screenshots can contain personal data, never commit them
+runs/
+*.mp4
+*.apk
+*.aab
+*.ipa
+
+# python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+
+# flutter / dart
+.dart_tool/
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+pubspec_overrides.yaml
+
+# rust
+target/
+
+# terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+
+# os / editors
+.DS_Store
+.idea/
+.vscode/
